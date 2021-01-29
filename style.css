@@ -71,3 +71,67 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 420px) {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  /* lezioni */
+  #lezioni.container {
+    background-color: rgba(159, 184, 173, .3);
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  .row {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  #lezioni h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  #lezioni .row img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+
+  #lezioni h3 {
+    font-size: 24px;
+    margin: 25px 0;
+  }
+
+  #lezioni .row>.left {
+    margin-bottom: 70px;
+  }
+  /* /lezioni */
+
+}
+/* /RESPONSIVE */
