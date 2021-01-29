@@ -153,7 +153,7 @@ img {
     padding: 30px;
     margin: 30px auto;
   }
-  
+
   #steps .row img {
     width: 80%;
     height: 80%;
@@ -194,7 +194,6 @@ img {
     width: 25%;
     height: 25%;
     background-color: #71677C;
-    border-radius: 50%;
     padding: 30px;
     box-shadow: 0 0 10px 7px rgba(225, 225, 225, 0.1);
   }
@@ -209,6 +208,146 @@ img {
   /* /perche */
 }
 /* /max-width 1024px */
+
+
+/* max-width 768px */
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+    body {
+      font-size: 18px;
+    }
+
+    /* lezioni */
+    #lezioni.container {
+      background-color: rgba(159, 184, 173, .3);
+      border-radius: 20px;
+      margin-top: 20px;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 35px;
+      box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+      float: none;
+    }
+
+    .row {
+      margin-top: 5px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    #lezioni .row img {
+      width: 40%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    #lezioni .row div:nth-of-type(2) img {
+      width: 60%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin: 25px 0;
+    }
+
+    #lezioni .row>.left {
+      margin-bottom: 20px;
+    }
+    /* /lezioni */
+
+    /* steps */
+
+    #steps {
+      padding: 35px 35px 0px 35px;
+      margin-top: 40px;
+      border-radius: 20px;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 30px 0;
+      box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #steps .row img {
+      width: 30%;
+      height: 30%;
+    }
+
+    #steps h3 {
+      font-size: 21px;
+      text-transform: uppercase;
+   }
+    /* /steps */
+
+    /* perche */
+    #why {
+      color: #fff;
+      border-radius: 20px;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgba(113, 103, 124, .8);
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 100%;
+      margin-top: 60px;
+    }
+
+    #why .row {
+      max-width: 80%;
+      padding-bottom: 30px;
+    }
+
+    #why .row img {
+      width: 30%;
+      height: 30%;
+      background-color: #71677C;
+      padding: 20px;
+      box-shadow: 0 0 15px 10px rgba(225, 225, 225, 0.2);
+    }
+
+    #why h1 {
+      padding-top: 30px;
+    }
+
+    #why .row hr{
+      margin: 25px 0;
+    }
+    /* /perche */
+  }
+}
+/* /max-width 768px */
+
 
 /* max-width 420px */
 @media screen and (max-width: 420px) {
@@ -324,11 +463,10 @@ img {
   }
 
   #why .row img {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     background-color: #71677C;
-    border-radius: 50%;
-    padding: 30px;
+    padding: 1px;
     box-shadow: 0 0 15px 10px rgba(225, 225, 225, 0.2);
   }
 
