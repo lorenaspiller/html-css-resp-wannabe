@@ -85,7 +85,7 @@ img {
 
   body {
     font-size: 18px;
-    width: 100%;
+    max-width: 100%;
   }
 
   /* lezioni */
@@ -93,7 +93,7 @@ img {
     background-color: rgba(159, 184, 173, .3);
     border-radius: 20px;
     margin-top: 20px;
-    width: 80%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 35px;
@@ -111,7 +111,7 @@ img {
     width: 100%;
   }
 
-  #lezioni h1 {
+  h1 {
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -123,7 +123,7 @@ img {
     object-fit: contain;
   }
 
-  #lezioni h3 {
+   h3 {
     font-size: 24px;
     margin: 25px 0;
   }
@@ -132,6 +132,41 @@ img {
     margin-bottom: 70px;
   }
   /* /lezioni */
+
+  /* steps */
+
+  #steps {
+    padding: 35px 35px 0px 35px;
+    margin-top: 40px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #steps .row img {
+    width: 80%;
+    height: 80%;
+  }
+
+  #steps h3 {
+    font-size: 21px;
+    text-transform: uppercase;
+ }
+
+  /* /steps */
+
 
 }
 /* /RESPONSIVE */
