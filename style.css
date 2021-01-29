@@ -75,6 +75,142 @@ img {
 
 
 /* RESPONSIVE */
+/* max-width 1024px */
+@media screen and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  /* lezioni */
+
+  #lezioni.container {
+    background-color: rgba(159, 184, 173, .3);
+    border-radius: 20px;
+    margin-top: 15px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    padding: 30px 30px 20px 50px;
+  }
+
+  #lezioni .row img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin: 25px 0;
+  }
+  /* /lezioni */
+
+  /* steps */
+  #steps {
+    padding: 35px 35px 0px 35px;
+    margin-top: 40px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+    width: 50%;
+    padding: 30px;
+    margin: 30px 0;
+  }
+
+  #steps .row>.right {
+    width: 50%;
+    float: none;
+    display: block;
+    padding: 30px;
+    margin: 30px auto;
+  }
+  
+  #steps .row img {
+    width: 80%;
+    height: 80%;
+  }
+
+  #steps h3 {
+    font-size: 21px;
+    text-transform: uppercase;
+  }
+
+  /* /steps */
+
+  /* perche */
+  #why {
+    color: #fff;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(113, 103, 124, .8);
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  #why .row {
+    max-width: 70%;
+    padding-bottom: 30px;
+  }
+
+  #why .row img {
+    width: 25%;
+    height: 25%;
+    background-color: #71677C;
+    border-radius: 50%;
+    padding: 30px;
+    box-shadow: 0 0 10px 7px rgba(225, 225, 225, 0.1);
+  }
+
+  #why h1 {
+    padding-top: 30px;
+  }
+
+  #why .row hr{
+    margin: 25px 0;
+  }
+  /* /perche */
+}
+/* /max-width 1024px */
+
+/* max-width 420px */
 @media screen and (max-width: 420px) {
 
 * {
@@ -85,7 +221,6 @@ img {
 
   body {
     font-size: 18px;
-    max-width: 100%;
   }
 
   /* lezioni */
@@ -205,10 +340,6 @@ img {
     margin: 25px 0;
   }
   /* /perche */
-
-
-
-
-
 }
+/* /max-width 420px */
 /* /RESPONSIVE */
